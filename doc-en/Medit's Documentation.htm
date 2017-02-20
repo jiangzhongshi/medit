@@ -1,0 +1,961 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0099)https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#SECTION00030000000000000000 -->
+<html class="translated-ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Medit's Documentation</title>
+<meta name="description" content="Documentation de Medit ">
+<meta name="keywords" content="Docmedit">
+<meta name="resource-type" content="document">
+<meta name="distribution" content="global">
+
+<meta name="Generator" content="LaTeX2HTML v2002-2-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+
+<link rel="STYLESHEET" href="./Medit&#39;s Documentation_files/Docmedit.css">
+
+<link type="text/css" rel="stylesheet" charset="UTF-8" href="./Medit&#39;s Documentation_files/translateelement.css"></head>
+
+<body>
+
+<h1 align="CENTER"><font><tt><font>Medit's</font></tt><font> Documentation</font></font><tt><font></font></tt></h1>
+<div class="author_info">
+
+</div>
+<br>
+
+<p>
+<br>
+
+</p><h2><a name="SECTION00010000000000000000"><font><font>
+Contents</font></font></a>
+</h2>
+<!--Table of Contents-->
+
+<ul class="TofC">
+<li><a name="tex2html69" href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#SECTION00020000000000000000"><font><font>1 Installation and Warning</font></font></a>
+<ul>
+<li><a name="tex2html70" href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#SECTION00021000000000000000"><font><font>1.1 On Linux</font></font></a>
+</li><li><a name="tex2html71" href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#SECTION00022000000000000000"><font><font>1.2 Under MacOS</font></font></a>
+</li><li><a name="tex2html72" href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#SECTION00023000000000000000"><font><font>1.3 Under Window</font></font></a>
+</li></ul>
+<br>
+</li><li><a name="tex2html73" href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#SECTION00030000000000000000"><font><font>2 Getting Started and File Format</font></font></a>
+<ul>
+<li><a name="tex2html74" href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#SECTION00031000000000000000"><font><font>2.1 File Format</font></font></a>
+</li><li><a name="tex2html75" href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#SECTION00032000000000000000"><font><font>2.2 Starting Medit </font></font></a>
+</li></ul>
+<br>
+</li><li><a name="tex2html76" href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#SECTION00040000000000000000"><font><font>3 Navigation (move image)</font></font></a>
+<ul>
+<li><a name="tex2html77" href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#SECTION00041000000000000000"><font><font>3.1 with the mouse</font></font></a>
+</li><li><a name="tex2html78" href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#SECTION00042000000000000000"><font><font>3.2 with keyboard</font></font></a>
+</li><li><a name="tex2html79" href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#SECTION00043000000000000000"><font><font>3.3 stereo mode</font></font></a>
+</li></ul>
+<br>
+</li><li><a name="tex2html80" href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#SECTION00050000000000000000"><font><font>4 View a solution</font></font></a>
+<ul>
+<li><a name="tex2html81" href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#SECTION00051000000000000000"><font><font>4.1 file format</font></font></a>
+</li><li><a name="tex2html82" href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#SECTION00052000000000000000"><font><font>4.2 visualization</font></font></a>
+</li></ul>
+<br>
+</li><li><a name="tex2html83" href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#SECTION00060000000000000000"><font><font>5 Cutting plane</font></font></a>
+</li><li><a name="tex2html84" href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#SECTION00070000000000000000"><font><font>6 Orders</font></font></a>
+<ul>
+<li><a name="tex2html85" href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#SECTION00071000000000000000"><font><font>6.1 File</font></font></a>
+</li><li><a name="tex2html86" href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#SECTION00072000000000000000"><font><font>6.2 Render mode</font></font></a>
+</li><li><a name="tex2html87" href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#SECTION00073000000000000000"><font><font>6.3 Colors, materials</font></font></a>
+</li><li><a name="tex2html88" href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#SECTION00074000000000000000"><font><font>Data 6.4</font></font></a>
+</li><li><a name="tex2html89" href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#SECTION00075000000000000000"><font><font>6.5 Items</font></font></a>
+</li><li><a name="tex2html90" href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#SECTION00076000000000000000"><font><font>6.6 Clipping</font></font></a>
+</li><li><a name="tex2html91" href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#SECTION00077000000000000000"><font><font>6.7 Features</font></font></a>
+</li><li><a name="tex2html92" href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#SECTION00078000000000000000"><font><font>6.8 View</font></font></a>
+</li><li><a name="tex2html93" href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#SECTION00079000000000000000"><font><font>6.9 Animation</font></font></a>
+</li></ul>
+<br>
+</li><li><a name="tex2html94" href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#SECTION00080000000000000000"><font><font>7 Saving images</font></font></a>
+</li><li><a name="tex2html95" href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#SECTION00090000000000000000"><font><font>8 Animation</font></font></a>
+</li><li><a name="tex2html96" href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#SECTION000100000000000000000"><font><font>9 Viewing two meshes simultaneously</font></font></a>
+</li><li><a name="tex2html97" href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#SECTION000110000000000000000"><font><font>10 The file "DEFAULT.medit"</font></font></a>
+</li><li><a name="tex2html98" href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#SECTION000120000000000000000"><font><font>11 The field mode</font></font></a>
+</li><li><a name="tex2html99" href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#SECTION000130000000000000000"><font><font>12 Keyboard shortcuts</font></font></a>
+</li><li><a name="tex2html100" href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#SECTION000140000000000000000"><font><font>13 FAQ</font></font></a>
+</li></ul>
+<!--End of Table of Contents--><a name="sommaire"></a>
+
+<h1><a name="SECTION00020000000000000000">
+<span class="arabic"><font><font>1</font></font></span><font><font> Installation and Warning</font></font></a>
+</h1>
+
+<h2><a name="SECTION00021000000000000000">
+<span class="arabic"><font><font>1</font></font></span><font><font> . </font></font><span class="arabic"><font><font>1</font></font></span><font><font> On Linux</font></font></a>
+</h2>
+
+<p><font><font>
+Download the application at the following address: </font></font><a name="tex2html1" href="http://www.ljll.math.upmc.fr/~frey/logiciels/medit2.html"><font><font>http://www.ljll.math.upmc.fr/~frey/logiciels/medit2.html</font></font></a>
+<br><font><font> 
+Unpack it: </font></font><tt><span id="hue542"><font><font>tar zxvf medit-2.3-linux.gz</font></font></span></tt>
+<br><a name="tex2html2" href="http://www.ljll.math.upmc.fr/~dobrzyns/private/Docmedit/Docmedit.html"><font><font> back to contents</font></font></a>
+
+</p><h2><a name="SECTION00022000000000000000">
+<span class="arabic"><font><font>1</font></font></span><font><font> . </font></font><span class="arabic"><font><font>2</font></font></span><font><font> Under MacOS</font></font></a>
+</h2><font><font>
+Download the application at the following address: </font></font><a name="tex2html3" href="http://www.ljll.math.upmc.fr/~frey/logiciels/medit2.html"><font><font>http://www.ljll.math.upmc.fr/~frey/logiciels/medit2.html</font></font></a>
+<br>
+<p><font><font>
+The file decompresses automatically (if it does not, you must open it in </font></font><em><font><font>StuffIt Expander</font></font></em><font><font> to unpack it). </font><font>Then, place the </font></font><tt><font><font>Medit</font></font></tt><font><font> application </font><font>in your Applications folder.
+</font></font><br>
+</p><p><font><font>
+If you want to use </font></font><tt><font><font>Medit</font></font></tt><font><font> in a terminal, you just need to create a script that contains the following information: 
+ </font></font><br><tt><span id="hue550"><font><font>#! / Bin / sh </font></font></span></tt>
+<br><tt><span id="hue552"><font><font>/Applications/medit.app/Contents/MacOS/medit "$ @"</font></font></span></tt> 
+<br><font><font> 
+Name it </font></font><tt><font><font>Medit</font></font></tt><font><font> And place it in a place seen by your </font></font><tt><span id="hue555"><font><font>PATH</font></font></span></tt><font><font> . </font><font>Therefore, when you type the </font></font><tt><font><font>Medit</font></font></tt><font><font> Command </font><font>in a terminal window, the application will launch automatically.
+</font></font><br>
+</p><p>
+<b><font><font>Warning: </font></font><tt><font><font>Medit</font></font></tt><font><font> was created for a machine with a three-button mouse, so to have access to all the features, it is recommended to connect one to your Mac. </font><font>However, if you have only one mouse at a button, you can get the right button by typing </font></font><tt><span id="hue559"><font><font>ctrl + click</font></font></span></tt><font><font> and the left button by typing </font></font><tt><span id="hue561"><font><font>alt + click</font></font></span></tt> </b>
+
+<br><a name="tex2html4" href="http://www.ljll.math.upmc.fr/~dobrzyns/private/Docmedit/Docmedit.html"><font><font> back to summary</font></font></a>
+</p><p>
+
+</p><h2><a name="SECTION00023000000000000000">
+<span class="arabic"><font><font>1</font></font></span><font><font> . </font></font><span class="arabic"><font><font>3</font></font></span><font><font> Under Window</font></font></a>
+</h2><font><font>
+Download the application at the following address: </font></font><a name="tex2html5" href="http://www.ljll.math.upmc.fr/~frey/logiciels/medit2.html"><font><font>http://www.ljll.math.upmc.fr/~frey/logiciels/medit2.html </font></font></a>
+<br>
+<br><a name="tex2html6" href="http://www.ljll.math.upmc.fr/~dobrzyns/private/Docmedit/Docmedit.html"><font><font>back to contents</font></font></a>
+
+<h1><a name="SECTION00030000000000000000">
+<span class="arabic"><font><font>2</font></font></span><font><font> Getting Started and File Format</font></font></a>
+</h1>
+
+<h2><a name="SECTION00031000000000000000">
+<span class="arabic"><font><font>2</font></font></span><font><font> . </font></font><span class="arabic"><font><font>1</font></font></span><font><font> File Format</font></font></a>
+</h2>
+
+<h3><a name="SECTION00031100000000000000"></a> <a name="format_mesh"></a>
+<br>
+<span class="arabic"><font><font>2</font></font></span><font><font> . </font></font><span class="arabic"><font><font>1</font></font></span><font><font> . </font></font><span class="arabic"><font><font>1</font></font></span><font><font> Mesh Format
+</font></font></h3>
+<a name="tex2html7" href="http://www.ljll.math.upmc.fr/~dobrzyns/private/Docmedit/Docmedit.html"><font><font>Back to overview</font></font></a>
+<p>
+<tt><font><font>Medit</font></font></tt><font><font> allows </font></font><tt><font><font>mesh</font></font></tt><font><font> meshes </font><font>(binary or ASCII) </font><font>to be displayed </font><font>. </font><font>This format is composed of a single file ( </font></font><tt><font><font>xx.mesh</font></font></tt><font><font> or </font></font><tt><font><font>xx.meshb</font></font></tt><font><font> ) that contains all the information needed to describe the mesh. </font><font>It is organized into a series of fields, identified by a keyword. </font><font>The comment lines begin with the character </font></font><span class="MATH"><img width="17" height="30" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img1.png" alt="$ \ Char93 $"></span><font><font>and the "blank", the line (or </font></font><tt><font><font>&lt;CR&gt;</font></font></tt><font><font> ) and the tabs are considered as separators.
+</font></font><br>
+</p><p><font><font>
+The file must start with the following 2 lines:
+ </font></font><br><tt><span id="hue577"><font><font>MeshVersionFormatted 1 </font></font></span></tt>
+<br><tt><span id="hue579"><font><font>Dimension</font></font></span></tt><font><font> 3
+ </font></font><br><span id="hue581"><b><font><font>NB</font></font></b></span><font><font> : the dimension can also be equal to 2.
+
+</font></font></p><p><font><font>
+The fields corresponding to the geometry must then be defined: the vertices of the mesh as well as these elements (triangles, quadrilaterals, tetrahedrons, hexahedrons, etc.). </font><font>These entities are defined as follows:
+ </font></font><br><span id="hue583"><b><font><font>NB</font></font></b></span><font><font> : The numbers of the entities begin </font></font><span class="MATH"><img width="12" height="13" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img2.png" alt="$ 1 $"></span><font><font>(and not </font></font><span class="MATH"><img width="12" height="13" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img3.png" alt="$ 0 $"></span><font><font>as in some language)
+ </font></font><br>
+<br>
+<br><tt><span id="hue585"><font><font>Vertices</font></font></span></tt>
+<font><font> ...
+ </font><font>
+with </font><font>the number of nodes of the mesh, </font><font>the coordinates of the point </font><font>and </font><font>its reference. 
+</font><span id="hue587"><b><font>NB</font></b></span><font> : In dimension 2, we define only </font><tt><span id="hue589"><font>Triangles</font></span></tt><font> ...
+ </font><font>
+with </font><font>the number of triangles of the mesh, </font><font>the number of the vertex </font><font>of the triangle </font><font>and </font><font>its reference.
+</font><span id="hue591"><b><font>Note</font></b></span><font> : </font><tt><font>Each reference corresponds to a color in Medit </font></tt><tt><span id="hue594"><font>Quadrilaterals</font></span></tt><font> ...
+ </font><font>
+with </font><font>the number of quadrangles of the mesh, </font><font>the number of the vertex </font><font>of the quadrangle </font><font>and </font><font>its reference.
+</font><span id="hue596"><b><font>NB</font></b></span><font> : Each reference corresponds to a color in </font><tt><font>Medit </font></tt><tt><span id="hue599"><font>Tetrahedra</font></span></tt><font> ...
+ </font><font>
+with </font><font>the number of meshed tetrahedrons, </font><font>the number of </font><font>the tetrahedron </font><font>'s top </font><font>and </font><font>its reference.
+</font><span id="hue601"><b><font>NB</font></b></span><font> : Each reference corresponds to a color in </font><tt><font>Medit </font></tt><tt><span id="hue604"><font>Hexaedra</font></span></tt><font> ...
+ </font><font>
+with </font><font>the number of hexahedra of the mesh, </font><font>The number of </font><font>the hexahhedron </font><font>vertex </font><font>and </font><font>its reference.
+</font><span id="hue606"><b><font>NB</font></b></span><font> : Each reference corresponds to a color in </font><tt><font>Medit </font></tt><tt><span id="hue609"><font>Edges</font></span></tt><font> ...
+ </font><font>
+with </font><font>the number of edges of the mesh, </font><font>the number of the two vertices that make up the edge </font><font>and </font><font>its reference.
+</font></font><br><span class="MATH"><img width="22" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img4.png" alt="$ Np $"></span>
+<br><!-- MATH
+ $x_1 \,\,y_1 \,\,z_1\,\, ref_1$
+ -->
+<span class="MATH"><img width="96" height="30" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img5.png" alt="$ X_1 y_1 z_1 ref_1 $"></span>
+<br><font></font><br><!-- MATH
+ $x_{np}\,\, y_{np} \,\,z_{np}\,\, ref_{np}$
+ -->
+<span class="MATH"><img width="128" height="30" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img6.png" alt="$ X_ {np} y_ {np} z_ {np} ref_ {np} $"></span>
+<br><font></font><span class="MATH"><img width="22" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img4.png" alt="$ Np $"></span><font></font><!-- MATH
+ $x_i \,\,y_i \,\, z_i$
+ -->
+<span class="MATH"><img width="55" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img7.png" alt="$ X_i y_i z_i $"></span><font></font><span class="MATH"><img width="10" height="14" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img8.png" alt="$ I $"></span><font></font><span class="MATH"><img width="32" height="30" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img9.png" alt="$ Ref_i $"></span><font></font><br><span id="hue587"><b><font></font></b></span><font></font><!-- MATH
+ $x_i \,\,y_i \,\,ref_i$
+ -->
+<span class="MATH"><img width="70" height="30" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img10.png" alt="$ X_i y_i ref_i $"></span>
+<br>
+<br>
+<br><tt><span id="hue589"><font></font></span></tt>
+<br><span class="MATH"><img width="19" height="13" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img11.png" alt="$ Nt $"></span>
+<br><!-- MATH
+ $v^1_1\,\, v^2_1 \,\,v^3_1 \,\,ref_1$
+ -->
+<span class="MATH"><img width="96" height="34" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img12.png" alt="$ V ^ 1_1 v ^ 2_1 v ^ 3_1 ref_1 $"></span>
+<br><font></font><br><!-- MATH
+ $v^1_{nt}\,\, v^2_{nt} \,\,v^3_{nt} \,\,ref_{nt}$
+ -->
+<span class="MATH"><img width="120" height="34" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img13.png" alt="$ V ^ 1_ {nt} v ^ 2_ {nt} v ^ 3_ {nt} ref_ {nt} $"></span>
+<br><font></font><span class="MATH"><img width="19" height="13" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img11.png" alt="$ Nt $"></span><font></font><span class="MATH"><img width="19" height="38" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img14.png" alt="$ V ^ j_i $"></span><font></font><span class="MATH"><img width="11" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img15.png" alt="$ D $"></span><font></font><span class="MATH"><img width="10" height="14" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img8.png" alt="$ I $"></span><font></font><span class="MATH"><img width="32" height="30" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img9.png" alt="$ Ref_i $"></span><font></font><br><span id="hue591"><b><font></font></b></span><font></font><tt><font></font></tt>
+<br>
+<br>
+<br><tt><span id="hue594"><font></font></span></tt>
+<br><span class="MATH"><img width="21" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img16.png" alt="$ Nq $"></span>
+<br><!-- MATH
+ $v^1_1\,\, v^2_1 \,\,v^3_1 \,\, v^4_1\,\,ref_1$
+ -->
+<span class="MATH"><img width="117" height="34" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img17.png" alt="$ V ^ 1_1 v ^ 2_1 v ^ 3_1 v ^ 4_1 ref_1 $"></span>
+<br><font></font><br><!-- MATH
+ $v^1_{nq}\,\, v^2_{nq} \,\,v^3_{nq} \,\, v^4_{nq}\,\,ref_{nq}$
+ -->
+<span class="MATH"><img width="153" height="34" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img18.png" alt="$ V ^ 1_ {nq} v ^ 2_ {nq} v ^ 3_ {nq} v ^ 4_ {nq} ref_ {nq} $"></span>
+<br><font></font><span class="MATH"><img width="21" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img16.png" alt="$ Nq $"></span><font></font><span class="MATH"><img width="19" height="38" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img14.png" alt="$ V ^ j_i $"></span><font></font><span class="MATH"><img width="11" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img15.png" alt="$ D $"></span><font></font><span class="MATH"><img width="10" height="14" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img8.png" alt="$ I $"></span><font></font><span class="MATH"><img width="32" height="30" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img9.png" alt="$ Ref_i $"></span><font></font><br><span id="hue596"><b><font></font></b></span><font></font><tt><font></font></tt>
+<br>
+<br>
+<br><tt><span id="hue599"><font></font></span></tt>
+<br><span class="MATH"><img width="32" height="13" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img19.png" alt="$ Ntet $"></span>
+<br><!-- MATH
+ $v^1_1\,\, v^2_1 \,\,v^3_1 \,\, v^4_1\,\,ref_1$
+ -->
+<span class="MATH"><img width="117" height="34" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img17.png" alt="$ V ^ 1_1 v ^ 2_1 v ^ 3_1 v ^ 4_1 ref_1 $"></span>
+<br><font></font><br><!-- MATH
+ $v^1_{ntet}\,\, v^2_{ntet} \,\,v^3_{ntet} \,\, v^4_{ntet} \,\,ref_{ntet}$
+ -->
+<span class="MATH"><img width="200" height="34" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img20.png" alt="$ V ^ 1_ {ntet} v ^ 2_ {ntet} v ^ 3_ {ntet} v ^ 4_ {ntet} ref_ {ntet} $"></span>
+<br><font></font><span class="MATH"><img width="32" height="13" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img19.png" alt="$ Ntet $"></span><font></font><span class="MATH"><img width="19" height="38" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img14.png" alt="$ V ^ j_i $"></span><font></font><span class="MATH"><img width="11" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img15.png" alt="$ D $"></span><font></font><span class="MATH"><img width="10" height="14" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img8.png" alt="$ I $"></span><font></font><span class="MATH"><img width="32" height="30" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img9.png" alt="$ Ref_i $"></span><font></font><br><span id="hue601"><b><font></font></b></span><font></font><tt><font></font></tt>
+<br>
+<br>
+<br><tt><span id="hue604"><font></font></span></tt>
+<br><span class="MATH"><img width="23" height="14" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img21.png" alt="$ Nh $"></span>
+<br><!-- MATH
+ $v^1_1\,\, v^2_1 \,\,v^3_1 \,\, v^4_1\,\, v^5_1\,\, v^6_1 \,\,v^7_1 \,\, v^8_1\,\,ref_1$
+ -->
+<span class="MATH"><img width="200" height="34" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img22.png" alt="$ V ^ 1_1 v ^ 2_1 v ^ 3_1 v ^ 4_1 v ^ 5_1 v ^ 6_1 v ^ 7_1 v ^ 8_1 ref_1 $"></span>
+<br><font></font><br><!-- MATH
+ $v^1_{nh}\,\, v^2_{nh} \,\,v^3_{nh} \,\, v^4_{nh} \,\ v^5_{nh}\,\, v^6_{nh} \,\,v^7_{nh} \,\, v^8_{nh} \,\,ref_{nh}$
+ -->
+<span class="MATH"><img width="279" height="34" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img23.png" alt="(Nh) v ^ 2 ^ {nh} v ^ 3_ {nh} v ^ 4_ {nh} v ^ 5_ {nh} v ^ 6_ {nh} v ^ {Nh} $"></span>
+<br><font></font><span class="MATH"><img width="23" height="14" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img21.png" alt="$ Nh $"></span><font></font><span class="MATH"><img width="19" height="38" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img14.png" alt="$ V ^ j_i $"></span><font></font><span class="MATH"><img width="11" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img15.png" alt="$ D $"></span><font></font><span class="MATH"><img width="10" height="14" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img8.png" alt="$ I $"></span><font></font><span class="MATH"><img width="32" height="30" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img9.png" alt="$ Ref_i $"></span><font></font><br><span id="hue606"><b><font></font></b></span><font></font><tt><font></font></tt>
+<br>
+<br>
+<br><tt><span id="hue609"><font></font></span></tt>
+<br><span class="MATH"><img width="21" height="13" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img24.png" alt="$ Ne $"></span>
+<br><!-- MATH
+ $e^1_1\,\, e^2_1 \,\,ref_1$
+ -->
+<span class="MATH"><img width="74" height="34" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img25.png" alt="$ E ^ 1_1 e ^ 2_1 ref_1 $"></span>
+<br><font></font><br><!-- MATH
+ $e^1_{ne} \,\, e^2_{ne} \,\, ref_{ne}$
+ -->
+<span class="MATH"><img width="96" height="34" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img26.png" alt="$ E ^ 1_ {ne} e ^ 2_ {ne} ref_ {ne} $"></span>
+<br><font></font><span class="MATH"><img width="21" height="13" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img24.png" alt="$ Ne $"></span><font></font><span class="MATH"><img width="33" height="34" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img27.png" alt="$ E ^ 1_i e ^ 2_i $"></span><font></font><span class="MATH"><img width="10" height="14" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img8.png" alt="$ I $"></span><font></font><span class="MATH"><img width="32" height="30" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img9.png" alt="$ Ref_i $"></span><font></font><br>
+</p><p>
+<a name="tex2html8" href="http://www.ljll.math.upmc.fr/~dobrzyns/private/Docmedit/Docmedit.html"><font><font>Back to overview</font></font></a>
+</p><p><font><font>
+It is then possible to define the singularities of the mesh and its constrained entities.
+</font></font><br><font><font>
+The corners correspond to a point of discontinuity </font></font><span class="MATH"><img width="24" height="16" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img28.png" alt="$ C ^ 0 $"></span><font><font>and by analogy, ridges can be defined as edges which have a discontinuity </font></font><span class="MATH"><img width="24" height="16" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img28.png" alt="$ C ^ 0 $"></span><font><font>between their two adjacent faces. </font><font>The constrained entities ( </font></font><tt><span id="hue614"><font><font>RequiredVertices</font></font></span></tt><font><font> or </font></font><tt><span id="hue616"><font><font>RequiredEdges</font></font></span></tt><font><font> ) correspond to entities that are to be preserved in the case of a rearrangement. </font><font>Fields will be defined as follows:
+ </font></font><br>
+<br>
+<br><tt><span id="hue618"><font><font>Corners</font></font></span></tt>
+<font><font> ...
+ </font><font>
+with </font><font>the number of corners and </font><font>a vertex number.
+</font><tt><span id="hue620"><font>RequiredVertices</font></span></tt><font> ...
+ </font><font>
+with </font><font>the number of constrained points and </font><font>a vertex number.
+</font><tt><span id="hue622"><font>Ridges</font></span></tt><font> ...
+ </font><font>
+with </font><font>the number of "rigde" and </font><font>an edge number.
+</font><tt><span id="hue624"><font>RequiredEdges</font></span></tt><font> ...
+ </font><font>
+with </font><font>the number of edges constrained and </font><font>an edge number.
+</font></font><br><span class="MATH"><img width="20" height="13" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img29.png" alt="$ Nc $"></span>
+<br><span class="MATH"><img width="19" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img30.png" alt="$ V_1 $"></span>
+<br><font></font><br><span class="MATH"><img width="26" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img31.png" alt="$ V_ {nc} $"></span>
+<br><font></font><span class="MATH"><img width="20" height="13" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img29.png" alt="$ Nc $"></span><font></font><span class="MATH"><img width="17" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img32.png" alt="$ V_i $"></span><font></font><br>
+<br>
+<br><tt><span id="hue620"><font></font></span></tt>
+<br><span class="MATH"><img width="29" height="13" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img33.png" alt="$ Nrv $"></span>
+<br><span class="MATH"><img width="19" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img30.png" alt="$ V_1 $"></span>
+<br><font></font><br><span class="MATH"><img width="33" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img34.png" alt="$ V_ {nrv} $"></span>
+<br><font></font><span class="MATH"><img width="29" height="13" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img33.png" alt="$ Nrv $"></span><font></font><span class="MATH"><img width="17" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img32.png" alt="$ V_i $"></span><font></font><br>
+<br>
+<br><tt><span id="hue622"><font></font></span></tt>
+<br><span class="MATH"><img width="21" height="13" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img35.png" alt="$ Nr $"></span>
+<br><span class="MATH"><img width="19" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img36.png" alt="$ E_1 $"></span>
+<br><font></font><br><span class="MATH"><img width="26" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img37.png" alt="$ E_ {nr} $"></span>
+<br><font></font><span class="MATH"><img width="21" height="13" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img35.png" alt="$ Nr $"></span><font></font><span class="MATH"><img width="17" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img38.png" alt="E_i $"></span><font></font><br>
+<br>
+<br><tt><span id="hue624"><font></font></span></tt>
+<br><span class="MATH"><img width="29" height="13" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img39.png" alt="$ Nre $"></span>
+<br><span class="MATH"><img width="19" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img36.png" alt="$ E_1 $"></span>
+<br><font></font><br><span class="MATH"><img width="32" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img40.png" alt="$ E_ {nre} $"></span>
+<br><font></font><span class="MATH"><img width="29" height="13" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img39.png" alt="$ Nre $"></span><font></font><span class="MATH"><img width="17" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img38.png" alt="E_i $"></span><font></font><br>
+</p><p>
+<a name="tex2html9" href="http://www.ljll.math.upmc.fr/~dobrzyns/private/Docmedit/Docmedit.html"><font><font>Back to overview</font></font></a>
+</p><p><font><font>
+Then the file can contain information about the normals and the tangents to the surface. </font><font>Normals and tangents are given as a list of vectors. </font><font>Normal in ( </font></font><tt><span id="hue629"><font><font>NormalAtVertices</font></font></span></tt><font><font> are specified using a number of vertices and an index corresponding to a normal vector. The normal triangles, ( </font></font><tt><span id="hue631"><font><font>NormalAtTriangleVertices</font></font></span></tt><font><font> ) correspond to a triangle number, a point index in the triangle and a vector index . normal at this point even the field was ( </font></font><tt><span id="hue633"><font><font>NormalAtQuadrilateralVertices</font></font></span></tt><font><font> ) above the definition of these different fields.
+ </font></font><br>
+<br>
+<br><tt><span id="hue635"><font><font>normals</font></font></span></tt>
+<font><font> ...
+ </font><font>
+with </font><font>the number of normal and </font><font>components of normal </font><tt><span id="hue637"><font>Tangents</font></span></tt><font> ...
+</font><font>
+With </font><font>the number of tangents and </font><font>the components of the tangent </font><tt><span id="hue639"><font>NormalAtVertices</font></span></tt><font> ...
+ </font><font>
+with </font><font>the number of normals at the vertices and </font><font>the number of the vertex and </font><font>the number of the normal at this vertex.
+</font><tt><span id="hue641"><font>NormalAtTriangleVertices</font></span></tt><font> ...
+ </font><font>
+with </font><font>the number of normals at the vertices of the triangles, </font><font>the number of the triangle, </font><font>the number of the vertex in the triangle </font><font>and </font><font>the number of the normal at that vertex.
+</font><tt><span id="hue643"><font>NormalAtQuadrilateralsVertices</font></span></tt><font> ...
+ </font><font>
+with </font><font>the number of normals at the vertices of the quadrilaterals, </font><font>the number of the quadrilateral, </font><font>The number of the vertex in this quadrangle </font><font>and </font><font>the number of the normal in this vertex.
+</font><tt><span id="hue645"><font>NormalAtEdges</font></span></tt><font> ...
+ </font><font>
+with </font><font>the number of normals at the vertices of the edges, </font><font>the number of the edge, </font><font>the number of the vertex of the edge </font><font>and </font><font>the number of the normal in this vertex.
+</font></font><br><span class="MATH"><img width="23" height="13" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img41.png" alt="$ Nn $"></span>
+<br><!-- MATH
+ $x_1\,\,y_1 \,\,z_1$
+ -->
+<span class="MATH"><img width="60" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img42.png" alt="$ X_1 y_1 z_1 $"></span>
+<br><font></font><br><!-- MATH
+ $x_{nn}\,\,y_{nn} \,\,z_{nn}$
+ -->
+<span class="MATH"><img width="89" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img43.png" alt="$ X_ {nn} y_ {nn} z_ {nn} $"></span>
+<br><font></font><span class="MATH"><img width="23" height="13" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img41.png" alt="$ Nn $"></span><font></font><!-- MATH
+ $x_i\,\,y_i \,\,z_i$
+ -->
+<span class="MATH"><img width="55" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img7.png" alt="$ X_i y_i z_i $"></span><font></font><span class="MATH"><img width="10" height="14" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img8.png" alt="$ I $"></span>
+<br>
+<br>
+<br><tt><span id="hue637"><font></font></span></tt>
+<br><span class="MATH"><img width="29" height="13" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img44.png" alt="$ Nnt $"></span>
+<br><!-- MATH
+ $x_1\,\,y_1 \,\,z_1$
+ -->
+<span class="MATH"><img width="60" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img42.png" alt="$ X_1 y_1 z_1 $"></span>
+<br><font></font><br><!-- MATH
+ $x_{nnt}\,\,y_{nnt} \,\,z_{nnt}$
+ -->
+<span class="MATH"><img width="103" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img45.png" alt="$ X_ {nnt} y_ {nnt} z_ {nnt} $"></span>
+<br><font></font><span class="MATH"><img width="29" height="13" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img44.png" alt="$ Nnt $"></span><font></font><!-- MATH
+ $x_i\,\,y_i \,\,z_i$
+ -->
+<span class="MATH"><img width="55" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img7.png" alt="$ X_i y_i z_i $"></span><font></font><span class="MATH"><img width="10" height="14" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img8.png" alt="$ I $"></span>
+<br>
+<br>
+<br><tt><span id="hue639"><font></font></span></tt>
+<br><span class="MATH"><img width="22" height="13" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img46.png" alt="$ Nv $"></span>
+<br><span class="MATH"><img width="41" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img47.png" alt="$ V_1 n_1 $"></span>
+<br><font></font><br><!-- MATH
+ $v_{nv}\,\,n_{nv}$
+ -->
+<span class="MATH"><img width="57" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img48.png" alt="$ V_ {nv} n_ {nv} $"></span>
+<br><font></font><span class="MATH"><img width="22" height="13" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img46.png" alt="$ Nv $"></span><font></font><span class="MATH"><img width="17" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img32.png" alt="$ V_i $"></span><font></font><span class="MATH"><img width="19" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img49.png" alt="$ N_i $"></span><font></font><br>
+<br>
+<br><tt><span id="hue641"><font></font></span></tt>
+<br><span class="MATH"><img width="28" height="13" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img50.png" alt="$ Ntv $"></span>
+<br><!-- MATH
+ $t_1\,\,v_1\,\,n_1$
+ -->
+<span class="MATH"><img width="59" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img51.png" alt="$ T_1 v_1 n_1 $"></span>
+<br><font></font><br><!-- MATH
+ $t_{ntv}\,\,v_{ntv}\,\,n_{ntv}$
+ -->
+<span class="MATH"><img width="98" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img52.png" alt="$ T_ {ntv} v_ {ntv} n_ {ntv} $"></span>
+<br><font></font><span class="MATH"><img width="28" height="13" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img50.png" alt="$ Ntv $"></span><font></font><span class="MATH"><img width="15" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img53.png" alt="$ T_i $"></span><font></font><span class="MATH"><img width="17" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img32.png" alt="$ V_i $"></span><font></font><span class="MATH"><img width="15" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img53.png" alt="$ T_i $"></span><font></font><span class="MATH"><img width="19" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img49.png" alt="$ N_i $"></span><font></font><br>
+<br>
+<br><tt><span id="hue643"><font></font></span></tt>
+<br><span class="MATH"><img width="30" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img54.png" alt="$ Nqv $"></span>
+<br><!-- MATH
+ $q_1\,\,v_1\,\,n_1$
+ -->
+<span class="MATH"><img width="60" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img55.png" alt="$ Q_1 v_1 n_1 $"></span>
+<br><font></font><br><!-- MATH
+ $q_{nqv}\,\,v_{nqv}\,\,n_{nqv}$
+ -->
+<span class="MATH"><img width="104" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img56.png" alt="$ Q_ {nqv} v_ {nqv} n_ {nqv} $"></span>
+<br><font></font><span class="MATH"><img width="30" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img54.png" alt="$ Nqv $"></span><font></font><span class="MATH"><img width="16" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img57.png" alt="$ Q_i $"></span><font></font><span class="MATH"><img width="17" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img32.png" alt="$ V_i $"></span><font></font><span class="MATH"><img width="16" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img57.png" alt="$ Q_i $"></span><font></font><span class="MATH"><img width="19" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img49.png" alt="$ N_i $"></span><font></font><br>
+<br>
+<br><tt><span id="hue645"><font></font></span></tt>
+<br><span class="MATH"><img width="27" height="13" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img58.png" alt="$ Nte $"></span>
+<br><!-- MATH
+ $e_1\,\,v_1\,\,n_1$
+ -->
+<span class="MATH"><img width="61" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img59.png" alt="$ E_1 v_1 n_1 $"></span>
+<br><font></font><br><!-- MATH
+ $e_{nte}\,\,v_{nte}\,\,n_{nte}$
+ -->
+<span class="MATH"><img width="98" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img60.png" alt="$ E_ {nte} v_ {nte} n_ {nte} $"></span>
+<br><font></font><span class="MATH"><img width="27" height="13" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img58.png" alt="$ Nte $"></span><font></font><span class="MATH"><img width="17" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img38.png" alt="E_i $"></span><font></font><span class="MATH"><img width="17" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img32.png" alt="$ V_i $"></span><font></font><span class="MATH"><img width="17" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img38.png" alt="E_i $"></span><font></font><span class="MATH"><img width="19" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img49.png" alt="$ N_i $"></span><font></font><br>
+</p><p><font><font>
+The file must end with the keyword </font></font><tt><span id="hue647"><font><font>End</font></font></span></tt><font><font> .
+</font></font><br>
+<br><a name="tex2html10" href="http://www.ljll.math.upmc.fr/~dobrzyns/private/Docmedit/Docmedit.html"><font><font>Back to overview</font></font></a>
+</p><p>
+
+</p><h3><a name="SECTION00031200000000000000"></a><a name="format_solution"></a>
+<br>
+<span class="arabic"><font><font>2</font></font></span><font><font> . </font></font><span class="arabic"><font><font>1</font></font></span><font><font> . </font></font><span class="arabic"><font><font>2</font></font></span><font><font> Solution Format
+</font></font></h3><font><font>
+To visualize a solution, you must have a file </font></font><tt><span id="hue653"><font><font>toto.bb associated</font></font></span></tt><font><font> with your mesh </font></font><tt><span id="hue655"><font><font>toto.mesh</font></font></span></tt><font><font> . </font><font>This file is composed as follows: 
+ </font><font>
+where </font><font>corresponds to the dimension ( </font><font>or </font><font>), </font><font>the number of </font><font>associated </font><font>fields, 
+ </font><font>the number of information and indicates </font><font>whether the solution is </font><font>associated with </font><font>mesh nodes ( </font><font>) or triangles ( </font><font>). </font><font>For information on viewing a solution, refer to </font><a href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#visu_sol"><font>4.2</font></a><font> .
+
+</font><a name="tex2html11" href="http://www.ljll.math.upmc.fr/~dobrzyns/private/Docmedit/Docmedit.html"><font>Back to overview</font></a></font><br><span class="MATH"><img width="32" height="14" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img61.png" alt="$ Dim $"></span> <span class="MATH"><img width="48" height="14" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img62.png" alt="$ Nbmet $"></span> <span class="MATH"><img width="42" height="14" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img63.png" alt="$ Nbval $"></span> <span class="MATH"><img width="34" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img64.png" alt="$ Type $"></span>
+<br><span class="MATH"><img width="12" height="13" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img65.png" alt="$ V $"></span><font></font><span class="MATH"><img width="32" height="14" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img61.png" alt="$ Dim $"></span><font></font><span class="MATH"><img width="12" height="13" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img66.png" alt="$ 2 $"></span><font></font><span class="MATH"><img width="12" height="13" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img67.png" alt="$ 3 $"></span><font></font><span class="MATH"><img width="48" height="14" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img62.png" alt="$ Nbmet $"></span><font></font><span class="MATH"><img width="42" height="14" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img63.png" alt="$ Nbval $"></span><font></font><span class="MATH"><img width="34" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img64.png" alt="$ Type $"></span><font></font><span class="MATH"><img width="63" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img68.png" alt="$ Type = 2 $"></span> <span class="MATH"><img width="81" height="30" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img69.png" alt="$ Nbval = np $"></span><font></font><span class="MATH"><img width="63" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img70.png" alt="$ Type = 1 $"></span> <span class="MATH"><img width="79" height="14" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img71.png" alt="$ Nbval = nt $"></span><font></font><a href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#visu_sol"><font></font></a><font></font><br><a name="tex2html11" href="http://www.ljll.math.upmc.fr/~dobrzyns/private/Docmedit/Docmedit.html"><font></font></a>
+<p>
+
+</p><h2><a name="SECTION00032000000000000000">
+<span class="arabic"><font><font>2</font></font></span><font><font> . </font></font><span class="arabic"><font><font>2</font></font></span><font><font> Start </font></font><tt><font><font>Medit</font></font></tt></a>
+</h2><font><font>
+We assume here that you have a mesh (for example: toto.mesh) that you want to view. </font><font>To start </font></font><tt><font><font>Medit</font></font></tt><font><font> , simply type   </font></font><tt><font><font>medit toto</font></font></tt><font><font> (or </font></font><tt><font><font>medit toto.mesh</font></font></tt><font><font> ) in a terminal window. </font><font>A window containing the mesh will open.
+
+</font></font><br>
+<br><span id="hue188"><b><font><font>Warning</font></font></b></span><font><font> : if you do not specify the extension (.mesh (b)) of your file, </font></font><tt><font><font>Medit</font></font></tt><font><font> first looks for a binary file and then if it does not find it it opens the ASCII file. </font><font>In other words, if you have in the same directory the files </font></font><tt><font><font>toto.mesh</font></font></tt><font><font> and </font></font><tt><font><font>toto.meshb</font></font></tt><font><font> and you type   </font><font>medit </font></font><tt><font><font>toto</font></font></tt><font><font> , you will see the file </font></font><tt><font><font>toto.meshb</font></font></tt><font><font> .
+
+</font></font><br>
+<br><b><font></font></b> 
+
+<ul>
+<li><tt><font><font>Medit -h</font></font></tt><font><font> : order summary
+</font></font></li>
+<li><tt><font><font>Medit -a</font></font></tt><font><font> : to start an animation, see   </font></font><a href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#animation"><font><font>8</font></font></a>
+</li>
+<li><tt><font><font>Medit -d</font></font></tt><font><font> : debug mode, allows to have more info
+</font></font></li>
+<li><tt><font></font></tt><font><font>Medit </font><tt><font>-fs</font></tt><font> : fullscreen mode, to have the image in full screen
+</font></font></li>
+<li><tt><font><font>Medit -i</font></font></tt><font><font> : Prints OpenGL Configuration Information
+</font></font></li>
+</ul>
+
+<p>
+<a name="tex2html12" href="http://www.ljll.math.upmc.fr/~dobrzyns/private/Docmedit/Docmedit.html"><font><font>Back to overview</font></font></a>
+</p><p>
+
+</p><h1><a name="SECTION00040000000000000000">
+<span class="arabic"><font><font>3</font></font></span><font><font> Navigation (move image)</font></font></a>
+</h1>
+
+<h2><a name="SECTION00041000000000000000">
+<span class="arabic"><font><font>3</font></font></span><font><font> . </font></font><span class="arabic"><font><font>1</font></font></span><font><font> with the mouse</font></font></a>
+</h2>
+
+<ul>
+<li><font><font> Left button: rotates the object 
+</font></font></li>
+<li><font><font> Middle button: allows you to translate the object
+</font></font></li>
+<li><font><font> Right button: brings up a menu 
+</font></font></li>
+</ul>
+<h2><a name="SECTION00042000000000000000">
+<span class="arabic"><font><font>3</font></font></span><font><font> . </font></font><span class="arabic"><font><font>2</font></font></span><font><font> with keyboard</font></font></a>
+</h2>
+
+<ul>
+<li><font><font>The arrows are used to translate the object 
+</font></font></li>
+<li><font><font>To zoom in: "z" and to zoom out "Z"
+</font></font></li>
+<li><font><font>To zoom very slowly: "+" and to zoom out slowly "-"
+</font></font></li>
+<li><font><font>"A" makes it possible to animate the object by a rotation (press "a" to stop it)
+</font></font></li>
+</ul>
+
+<p>
+<a name="tex2html13" href="http://www.ljll.math.upmc.fr/~dobrzyns/private/Docmedit/Docmedit.html"><font><font>Back to overview</font></font></a>
+</p><p>
+
+</p><h2><a name="SECTION00043000000000000000">
+<span class="arabic"><font><font>3</font></font></span><font><font> . </font></font><span class="arabic"><font><font>3</font></font></span><font><font> stereo mode</font></font></a>
+</h2>
+
+<p>
+<a name="tex2html14" href="http://www.ljll.math.upmc.fr/~dobrzyns/private/Docmedit/Docmedit.html"><font><font>Back to overview</font></font></a>
+</p><p>
+
+</p><h1><a name="SECTION00050000000000000000">
+<span class="arabic"><font><font>4</font></font></span><font><font> View a solution</font></font></a>
+</h1>
+
+<h2><a name="SECTION00051000000000000000">
+<span class="arabic"><font><font>4</font></font></span><font><font> . </font></font><span class="arabic"><font><font>1</font></font></span><font><font> file format</font></font></a>
+</h2><font><font>
+It is possible to visualize a solution on a mesh with </font></font><tt><font><font>Medit</font></font></tt><font><font> . </font><font>For the format of the solution files, refer to </font></font><a href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#format_solution"><font><font>2.1.2 </font></font></a>
+
+<br><a name="tex2html15" href="http://www.ljll.math.upmc.fr/~dobrzyns/private/Docmedit/Docmedit.html"><font><font>back to contents</font></font></a>
+<p>
+
+</p><h2><a name="SECTION00052000000000000000"></a><a name="visu_sol"></a>
+<br>
+<span class="arabic"><font><font>4</font></font></span><font><font> . </font></font><span class="arabic"><font><font>2</font></font></span><font><font> visualization
+</font></font></h2><font><font>
+To view a solution with </font></font><tt><font><font>Medit</font></font></tt><font><font> , you must have a solution ( </font></font><tt><span id="hue685"><font><font>.bb</font></font></span></tt><font><font> ) </font></font><a href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#format_solution"><font><font>2.1.2</font></font></a><font><font> file and an </font><font>associated </font><font>mesh file </font></font><a href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#format_mesh"><font><font>2.1.1</font></font></a><font><font> . </font><font>(For example, toto.bb and toto.mesh). </font><font>When you type </font></font><tt><font><font>medit toto</font></font></tt><font><font> , </font></font><tt><font><font>Medit</font></font></tt><font><font> will read both files. </font><font>By clicking on the right mouse button you will see a menu in which you find a </font></font><tt><span id="hue688"><font><font>DATA</font></font></span></tt><font><font> item </font><font>that allows you to plot: (the symbol in parenthesis corresponds to the keyboard shortcut)
+
+</font></font><ul>
+<li><font><font>The solution ( </font></font><tt><font><font>m</font></font></tt><font><font> ) ( </font></font><tt><span id="hue690"><font><font>Toggle metric</font></font></span></tt><font><font> ): the solution appears on the mesh as well as a palette corresponding to the values &#8203;&#8203;of the solution
+</font></font></li>
+<li><font><font>The palette ( </font></font><tt><font><font>p</font></font></tt><font><font> ) ( </font></font><tt><span id="hue692"><font><font>Toggle palette</font></font></span></tt><font><font> ): makes appear or disappear the palette
+</font></font></li>
+<li><font><font>The isolines of the solution ( </font></font><tt><font><font>o</font></font></tt><font><font> ) ( </font></font><tt><span id="hue694"><font><font>Toggle isolines</font></font></span></tt><font><font> )
+</font></font></li>
+<li><font><font>Isosurfaces: in 3d in the case of a scalar solution
+</font></font></li>
+<li><font><font>The solution vectors ( </font></font><tt><font><font>w</font></font></tt><font><font> ): if the solution is vectorial
+</font></font></li>
+<li><font><font>The current lines ( </font></font><tt><font><font>v</font></font></tt><font><font> ) ( </font></font><tt><span id="hue696"><font><font>Toggle streamlines</font></font></span></tt><font><font> ) still in the vector case
+ </font></font><br><font><font>
+to draw a line current must have select a point ( </font></font><tt><font><font>shift + middle click</font></font></tt><font><font> )
+ </font></font><br><font><font>
+To delete all the current lines ( </font></font><tt><span id="hue698"><font><font>Flush streamlines</font></font></span></tt><font><font> )
+ </font></font><br><font><font>
+In 2d It is possible to plot the </font></font><tt><span id="hue700"><font><font>critical points</font></font></span></tt><font><font> ( </font><tt><span id="hue700"><font>critical points</font></span></tt><font> )
+</font></font></li>
+</ul>
+
+<p><font><font>
+It is possible to adjust the palette (see </font></font><a href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#default"><font><font>10</font></font></a><font><font> )
+
+ </font></font><br><a name="tex2html16" href="http://www.ljll.math.upmc.fr/~dobrzyns/private/Docmedit/Docmedit.html"><font><font>back to the table of contents</font></font></a>
+</p><p>
+
+</p><h1><a name="SECTION00060000000000000000"></a><a name="plan_coupe"></a>
+<br>
+<span class="arabic"><font><font>5</font></font></span><font><font> Cutting plane
+</font></font></h1><font><font>
+We suppose here the existence of a mesh 3d. </font><font>In the menu that appears by clicking on the right button of your mouse, there is a section </font></font><tt><span id="hue706"><font><font>Clipping</font></font></span></tt><font><font> : (the symbol in parenthesis corresponds to the keyboard shortcuts)
+
+</font></font><ul>
+<li><tt><span id="hue708"><font><font>Toggle clip</font></font></span></tt><font><font> (F1):</font><font>activates</font><font>the plane of cut
+</font></font><br><font><font>
+By default, this is the plane of equation</font></font><span class="MATH"><img width="54" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img72.png" alt="$ X = x_G $"></span><font><font>with</font></font><span class="MATH"><img width="24" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img73.png" alt="$ X_G $"></span><font><font>the abscissa of the barycentre of the mesh.
+</font></font><br><font><font>
+The equation of the section plane is written at the bottom of the window. 
+</font></font></li>
+<li><tt><span id="hue710"><font><font>Edit clip</font></font></span></tt><font><font> (F2): allows to move this plane 
+</font></font><br><font><font>
+With the left button of the mouse the plane turns
+</font></font><br><font><font>
+With the middle button the plane of movement parallel to its axis.
+</font></font></li>
+<li><tt><span id="hue712"><font><font>Freeze clip</font></font></span></tt><font><font> (F3): allows to move the object around the cutting plane 
+</font></font></li>
+<li><tt><span id="hue714"><font><font>Inverse orient</font></font></span></tt><font><font> : inverses the orientation of the plane
+</font></font></li>
+<li><tt><span id="hue716"><font><font>Toggle capping</font></font></span></tt><font><font> : makes a flat cut plane
+</font></font></li>
+<li><tt><span id="hue718"><font><font>Toggle plane</font></font></span></tt><font><font> : removes the "trace" from the cutting plane
+</font></font></li>
+<li><tt><span id="hue720"><font><font>Toggle VClip</font></font></span></tt><font><font> (F4): mask the tetrahedra
+</font></font></li>
+</ul>
+<a name="tex2html17" href="http://www.ljll.math.upmc.fr/~dobrzyns/private/Docmedit/Docmedit.html"><font><font>Back to overview</font></font></a>
+<p>
+
+</p><h1><a name="SECTION00070000000000000000">
+<span class="arabic"><font><font>6</font></font></span><font><font> Orders</font></font></a>
+</h1><font><font>
+In this section, all menu commands that appear with the right click are listed and explained.
+
+</font></font><h2><a name="SECTION00071000000000000000">
+<span class="arabic"><font><font>6</font></font></span><font><font> . </font></font><span class="arabic"><font><font>1</font></font></span><font><font> File</font></font></a>
+</h2>
+
+<ul>
+<li><tt><span id="hue727"><font><font>Load prefs</font></font></span></tt><font><font> : allows to reload the preferences (</font></font><em><font><font> ie</font></font></em><font><font> the file</font></font><tt><font><font> .medit</font></font></tt><font><font> see</font></font><a href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#default"><font><font> 10</font></font></a><font><font> )
+</font></font></li>
+<li><tt><span id="hue729"><font><font>Save prefs</font></font></span></tt><font><font> : saves preferences if the file you are viewing is called</font></font><tt><font><font> toto.mesh (b)</font></font></tt><font><font> a</font></font><tt><font><font> toto.medit</font></font></tt><font><font> will be created.
+</font></font></li>
+<li><tt><span id="hue731"><font><font>Update mesh</font></font></span></tt><font><font> : connects the</font><tt><span id="hue733"><font> mesh</font></span></tt><font> file</font></font><tt><span id="hue733"><font></font></span></tt>
+</li>
+<li><tt><span id="hue735"><font><font>Save mesh</font></font></span></tt><font><font> : save the mesh in a file</font></font><tt><span id="hue737"><font><font> toto.d.mesh</font></font></span></tt>
+</li>
+<li><tt><span id="hue739"><font><font>Harcopy</font></font></span></tt><font><font> : see</font></font><a href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#sauv"><font><font> 7</font></font></a>
+</li>
+</ul>
+
+<p>
+<a name="tex2html18" href="http://www.ljll.math.upmc.fr/~dobrzyns/private/Docmedit/Docmedit.html"><font><font>Back to overview</font></font></a>
+</p><p>
+
+</p><h2><a name="SECTION00072000000000000000">
+<span class="arabic"><font><font>6</font></font></span><font><font> . </font></font><span class="arabic"><font><font>2</font></font></span><font><font> Render mode</font></font></a>
+</h2>
+
+<ul>
+<li><tt><span id="hue745"><font><font>Wireframe</font></font></span></tt><font><font> : shows the object in transparency
+</font></font></li>
+<li><tt><span id="hue747"><font><font>Depth lines</font></font></span></tt><font><font> : shows object in transparency with color lines
+</font></font></li>
+<li><tt><span id="hue749"><font><font>Hidden lines</font></font></span></tt><font><font> : reverse of</font></font><tt><span id="hue751"><font><font> Wireframe</font></font></span></tt>
+</li>
+<li><tt><span id="hue753"><font><font>Shading</font></font></span></tt><font><font> : shows the object in color and hides the lines
+</font></font></li>
+<li><tt><span id="hue755"><font><font>Shading + lines</font></font></span></tt><font><font> : shows the object in color with the lines
+</font></font></li>
+</ul>
+
+<p>
+<a name="tex2html19" href="http://www.ljll.math.upmc.fr/~dobrzyns/private/Docmedit/Docmedit.html"><font><font>Back to overview</font></font></a>
+</p><p>
+
+</p><h2><a name="SECTION00073000000000000000">
+<span class="arabic"><font><font>6</font></font></span><font><font> . </font></font><span class="arabic"><font><font>3</font></font></span><font><font> Colors, materials</font></font></a>
+</h2>
+
+<ul>
+<li><tt><span id="hue761"><font><font>Toggle backcolor</font></font></span></tt><font><font> : changes the</font><tt><span id="hue761"><font> background</font></span></tt><font> color of the image (black / white)
+</font></font></li>
+<li><tt><span id="hue763"><font><font>Toggle matcolor</font></font></span></tt><font><font> : displays the colors of the materials (if the</font></font><tt><span id="hue765"><font><font> Shading</font></font></span></tt><font><font> mode</font><font>is</font><font>activated</font><font>)
+</font></font><br><font><font>
+To get the same result with the keyboard shortcuts, type</font></font><tt><span id="hue767"><font><font> c</font></font></span></tt><font><font> (the object becomes blue) then</font></font><tt><span id="hue769"><font><font> e</font></font></span></tt><font><font> .
+</font></font></li>
+<li><tt><span id="hue771"><font><font>Edit matcolor</font></font></span></tt><font><font> : edit the properties of the material if a face is selected
+</font></font></li>
+<li><tt><span id="hue773"><font><font>Reset materials</font></font></span></tt><font><font> : makes visible all materials (in case some were hidden beforehand.
+</font></font></li>
+</ul>
+
+<p>
+<a name="tex2html20" href="http://www.ljll.math.upmc.fr/~dobrzyns/private/Docmedit/Docmedit.html"><font><font>Back to overview</font></font></a>
+</p><p>
+
+</p><h2><a name="SECTION00074000000000000000">
+<span class="arabic"><font><font>6</font></font></span><font><font> . </font></font><span class="arabic"><font><font>4</font></font></span><font><font> Data</font></font></a>
+</h2><font><font>
+This section applies to a solution: see </font></font><a href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#visu_sol"><font><font>4.2 </font></font></a>
+
+<br><a name="tex2html21" href="http://www.ljll.math.upmc.fr/~dobrzyns/private/Docmedit/Docmedit.html"><font><font>back to contents</font></font></a>
+<p>
+
+</p><h2><a name="SECTION00075000000000000000">
+<span class="arabic"><font><font>6</font></font></span><font><font> . </font></font><span class="arabic"><font><font>5</font></font></span><font><font> Items</font></font></a>
+</h2>
+
+<ul>
+<li><tt><span id="hue783"><font><font>Axis</font></font></span></tt><font><font> : traces the axes
+</font></font></li>
+<li><tt><span id="hue785"><font><font>Bounding box</font></font></span></tt><font><font> : displays the bounding box
+</font></font></li>
+<li><tt><span id="hue787"><font><font>Grid</font></font></span></tt><font><font> : displays a grid
+</font></font></li>
+<li><tt><span id="hue789"><font><font>Toggle info</font></font></span></tt><font><font> : Displays or disables the palette and the information at the bottom of the window
+</font></font></li>
+<li><tt><span id="hue791"><font><font>Toggle Point num</font></font></span></tt><font><font> : displays the number of the points
+</font></font></li>
+<li><tt><span id="hue793"><font><font>Toggle Face num</font></font></span></tt><font><font> : displays face numbers
+</font></font></li>
+</ul>
+
+<p>
+<a name="tex2html22" href="http://www.ljll.math.upmc.fr/~dobrzyns/private/Docmedit/Docmedit.html"><font><font>Back to overview</font></font></a>
+</p><p>
+
+</p><h2><a name="SECTION00076000000000000000">
+<span class="arabic"><font><font>6</font></font></span><font><font> . </font></font><span class="arabic"><font><font>6</font></font></span><font><font> Clipping</font></font></a>
+</h2><font><font>
+This section allows you to edit a section plan and modify it: see </font></font><a href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#plan_coupe"><font><font>5 </font></font></a>
+
+<br><a name="tex2html23" href="http://www.ljll.math.upmc.fr/~dobrzyns/private/Docmedit/Docmedit.html"><font><font>back to contents</font></font></a>
+<p>
+
+</p><h2><a name="SECTION00077000000000000000">
+<span class="arabic"><font><font>6</font></font></span><font><font> . </font></font><span class="arabic"><font><font>7</font></font></span><font><font> Features</font></font></a>
+</h2>
+
+<ul>
+<li><tt><span id="hue803"><font><font>Toggle Vshrink</font></font></span></tt><font><font> : allows you to remove the elements
+</font></font></li>
+<li><tt><span id="hue805"><font><font>Increase shrink</font></font></span></tt><font><font> : increases gauge
+</font></font></li>
+<li><tt><span id="hue807"><font><font>Decrease shrink</font></font></span></tt><font><font> : decreases gap
+</font></font></li>
+<li><tt><span id="hue809"><font><font>Toggle splitview</font></font></span></tt><font><font> : displays 4 different views of the object
+</font></font></li>
+</ul>
+
+<p>
+<a name="tex2html24" href="http://www.ljll.math.upmc.fr/~dobrzyns/private/Docmedit/Docmedit.html"><font><font>Back to overview</font></font></a>
+</p><p>
+
+</p><h2><a name="SECTION00078000000000000000">
+<span class="arabic"><font><font>6</font></font></span><font><font> . </font></font><span class="arabic"><font><font>8</font></font></span><font><font> View</font></font></a>
+</h2><font><font>
+This section applies when you want to view two meshes: see </font></font><a href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#visu_simultane"><font><font>9 </font></font></a>
+
+<br><a name="tex2html25" href="http://www.ljll.math.upmc.fr/~dobrzyns/private/Docmedit/Docmedit.html"><font><font>return to the table of contents</font></font></a>
+<p>
+
+</p><h2><a name="SECTION00079000000000000000">
+<span class="arabic"><font><font>6</font></font></span><font><font> . </font></font><span class="arabic"><font><font>9</font></font></span><font><font> Animation</font></font></a>
+</h2><font><font>
+This section allows to launch an animation and to save images: see </font></font><a href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#animation"><font><font>8 </font></font></a>
+
+<br><a name="tex2html26" href="http://www.ljll.math.upmc.fr/~dobrzyns/private/Docmedit/Docmedit.html"><font><font>return to the summary</font></font></a>
+<p>
+
+</p><h1><a name="SECTION00080000000000000000"></a><a name="sauv"></a>
+<br>
+<span class="arabic"><font><font>7</font></font></span><font><font> Saving images
+</font></font></h1>
+<tt><font><font>Medit</font></font></tt><font><font> provides a simple way to save views. </font><font>However, it should be noted that only bitmap images can be exported (ie screenshots). </font><font>Two export formats are possible:
+
+</font></font><ul>
+<li><b><font><font>Ppm format</font></font></b><font><font> : to save a </font></font><tt><font><font>ppm</font></font></tt><font><font> (portable pixmap) view, go to the menu ( </font></font><tt><font><font>ctrl</font></font></tt><font><font> + click), in the </font></font><tt><span id="hue824"><font><font>FILE category</font></font></span></tt><font><font> and click on </font></font><tt><span id="hue826"><font><font>Hardcopy PPM</font></font></span></tt><font><font> . </font><font>Note that the size of the image (in pixels) is the size of the current window, resulting in the size of the exported image not exceeding the resolution of the screen.
+</font></font><br>
+<p>
+</p></li>
+<li><b><font><font>Bitmap format postscript</font></font></b><font><font> : </font></font><tt><font><font>Medit</font></font></tt><font><font> offers three options to create a postscript bitmap image of the window that you view: color, gray or black </font></font><span class="MATH"><img width="16" height="14" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img74.png" alt="$ \ &amp; $"></span><font><font>white. </font><font>To create an image, go to the menu ( </font></font><tt><font><font>ctrl</font></font></tt><font><font> + click), in the </font></font><tt><span id="hue829"><font><font>FILE category</font></font></span></tt><font><font> and click on </font></font><tt><span id="hue831"><font><font>Hardcopy EPS</font></font></span></tt><font><font> .
+</font></font><br><font><font>
+By default, the size of the postscript file depends on the size of the graphics window. </font><font>It is possible to control the size of the postscript image (in cm) and its density (in dot per inch), for this, you must define these data in the DEFAULT.medit (see </font></font><a href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#default"><font><font>10</font></font></a><font><font> ). 
+</font></font></li>
+</ul>
+
+<p>
+<a name="tex2html27" href="http://www.ljll.math.upmc.fr/~dobrzyns/private/Docmedit/Docmedit.html"><font><font>Back to overview</font></font></a>
+</p><p>
+
+</p><h1><a name="SECTION00090000000000000000"></a><a name="animation"></a>
+<br>
+<span class="arabic"><font><font>8</font></font></span><font><font> Animation
+</font></font></h1><font><font>
+Here we consider the case where a meshing sequence (or solutions on a mesh) has been computed and stored. </font></font><tt><font><font>Medit</font></font></tt><font><font> allows the user to visualize the result of the mesh sequence very easily. </font><font>The aim being to fix a view on the first mesh of the sequence and then to visualize all the meshes of the sequence successively.
+</font></font><br>
+<p><font><font>
+To do this, it is first </font></font><tt><font><font>necessary</font></font></tt><font><font> that the mesh files have a name of the form: </font><tt><font>toto.XXX.mesh</font></tt><font> (for example for a sequence of 121 meshes, one will have files ranging from toto.001.mesh to foo. 121.mesh). </font><font>In other words, the names of the files are divided into 3 parts (separated by "."): A character string common to all the files, 3 digits designating the mesh numbers in the sequence, and the mesh (b) extension.
+</font></font><br><font><font>
+Then you must run </font></font><tt><font><font>Medit</font></font></tt><font><font> in the animation mode: medit </font></font><tt><font><font>toto -a 1 121</font></font></tt>
+<br><font><font> 
+The syntax of the command is as follows: you put your mesh name followed by </font></font><tt><font><font>-a</font></font></tt><font><font> followed by the number of the first mesh and the number of the last mesh.
+</font></font><br><font><font>
+A graphical window s' </font><font>Then opens with your first mesh, you can then choose the view, colors etc. etc .. that will apply to your sequence. </font></font><tt><font><font>Then click on the menu ( ctrl</font></font></tt><font><font> + click) in the Animation </font></font><tt><span id="hue839"><font><font>category</font></font></span></tt><font><font> on </font></font><tt><span id="hue841"><font><font>Play Sequence</font></font></span></tt><font><font> to start the animation.
+</font></font><br><a name="tex2html28" href="http://www.ljll.math.upmc.fr/~dobrzyns/private/Docmedit/Docmedit.html"><font><font>Back to overview</font></font></a>
+</p><p>
+
+</p><h1><a name="SECTION000100000000000000000"></a><a name="visu_simultane"></a>
+<br>
+<span class="arabic"><font><font>9</font></font></span><font><font> Viewing two meshes simultaneously
+</font></font></h1><font><font>
+If you want to compare two meshes or two solutions, you can open them simultaneously in </font></font><tt><font><font>Medit</font></font></tt><font><font> . </font><font>To do this, just type </font></font><tt><font><font>medit toto.mesh tata.mesh</font></font></tt><font><font> (if toto.mesh and tata.mesh are the two meshes concerned). </font><font>In this case, two graphic windows will open. </font><font>If one wants to compare the two meshes, it is interesting to "bind" them (that is to say that when one moves, the other will make the same displacements). </font><font>To do this, go to one of the two windows and in the menu ( </font></font><tt><font><font>ctrl</font></font></tt><font><font> + click) in the category </font></font><tt><span id="hue848"><font><font>view</font></font></span></tt><font><font> click on </font></font><tt><span id="hue850"><font><font>copy</font></font></span></tt><font><font> ( </font></font><tt><font><font>alt + c</font></font></tt><font><font> ). </font><font>Then, </font></font><tt><span id="hue852"><font><font>Another window and click on link</font></font></span></tt><font><font> ( </font></font><tt><font><font>alt + l</font></font></tt><font><font> ). </font><font>From then on, when you move the first mesh, the second mesh will automatically follow. </font><font>To "untie" the second mesh, just click an </font></font><tt><span id="hue854"><font><font>unlink</font></font></span></tt> <tt><font><font> u</font></font></tt><font><font> .
+</font></font><br>
+<p><font><font class="">
+Instead of linking the two views, you can simply copy a view ( </font></font><tt><span id="hue856"><font><font class="">copy</font></font></span></tt><font><font class=""> or </font></font><tt><font><font class="">alt + c</font></font></tt><font><font class=""> ) and paste it into another window ( </font></font><tt><span id="hue858"><font><font class="">paste</font></font></span></tt><font><font class=""> or </font></font><tt><font><font class="">alt + p</font></font></tt><font><font class=""> ). </font><font>In this case, the second mesh will remain independent of the first.
+</font></font><br><a name="tex2html29" href="http://www.ljll.math.upmc.fr/~dobrzyns/private/Docmedit/Docmedit.html"><font><font>Back to overview</font></font></a>
+</p><p>
+
+</p><h1><a name="SECTION000110000000000000000"></a><a name="default"></a>
+<br>
+<span class="arabic"><font><font>10</font></font></span><font><font> The file "DEFAULT.medit"
+</font></font></h1><font><font>
+In addition to the option menu (which appears by </font></font><tt><font><font>pressing ctrl + click</font></font></tt><font><font> ), it is possible to define certain parameters in a text file. </font><font>You can </font></font><tt><font><font>therefore</font></font></tt><font><font> define a file </font><tt><font>toto.medit associated</font></tt><font> with the mesh </font></font><tt><font><font>toto.mesh</font></font></tt><font><font> that you want to visualize. </font><font>If you do not set this file </font></font><tt><font><font>Medit</font></font></tt><font><font> searches the directory in which your mesh file </font></font><tt><font><font>DEFAULT.medit</font></font></tt><font><font> (he reads if found).
+</font></font><br><span id="hue865"><b><font><font>Note</font></font></b></span><font><font> : All parameters defined in this file have default values.
+</font></font><br>
+<p><font><font>
+This file consists of one or more fields in the following list:
+</font></font><br>
+
+</p><ul>
+<li><tt><span id="hue867"><font><font>BackgroundColor</font></font></span></tt><font><font> rgb where r, g and b are numbers between</font></font><span class="MATH"><img width="12" height="13" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img3.png" alt="$ 0 $"></span><font><font>and</font></font><span class="MATH"><img width="12" height="13" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img2.png" alt="$ 1 $"></span><font><font>.
+</font></font><br><font><font>
+This allows you to give the</font><font>background</font><font>color of the image (by default the</font><font>background</font><font>is black so</font><font>if you set</font><font>the</font><font>background</font><font>will be white.
+</font></font><!-- MATH
+ $(r,g,b)=(0,0,0)$
+ -->
+<span class="MATH"><img width="124" height="32" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img75.png" alt="$ (R, g, b) = (0,0,0) $"></span><font></font><!-- MATH
+ $(r,g,b)=(1,1,1)$
+ -->
+<span class="MATH"><img width="124" height="32" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img76.png" alt="$ (R, g, b) = (1,1,1) $"></span><font></font><br></li>
+<li><tt><span id="hue869"><font><font>LineColor</font></font></span></tt><font><font> rgb
+</font></font><br><font><font>
+This is used to define the color of the edges of the mesh (default</font></font><span class="MATH"><img width="54" height="32" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img77.png" alt="$ (1,1,1) $"></span><font><font>is white).
+</font></font><br></li>
+<li><tt><span id="hue871"><font><font>SunPosition</font></font></span></tt><font><font> xyz 
+</font></font><br><font><font>
+This allows you to specify the position of the light source (default</font><font>.
+</font></font><!-- MATH
+ $(x_{eye},y_{eye},z_{eye})$
+ -->
+<span class="MATH"><img width="114" height="32" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img78.png" alt="$ (X_ {eye}, y_ {eye}, z_ {eye}) $"></span><font></font><br></li>
+<li><tt><span id="hue873"><font><font>WindowSize</font></font></span></tt><font><font> wh where w and h are 2 integers.
+</font></font><br><font><font>
+This makes it possible to determine the size of the window (w = width, h = height) in pixels.
+</font></font><br></li>
+<li><tt><span id="hue875"><font><font>RenderMode</font></font></span></tt><font><font> str where str one of the</font><tt><span id="hue875"><font> following</font></span></tt><font> keywords: hidden, fill, colorshading, shading
+</font></font><br><font><font>
+This specifies the "rendering mode"
+</font></font><br></li>
+<li><tt><span id="hue877"><font><font>Palette</font></font></span></tt><font><font> c1 c2 c3 c4 c5 where they</font></font><span class="MATH"><img width="16" height="29" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img79.png" alt="$ C_i $"></span><font><font>are real numbers
+</font></font><br><font><font>
+This allows to set the values &#8203;&#8203;of the palette when visualizing a solution on the mesh. </font><font>This pallet is also used for the calculation of isolines and isosurfaces.
+</font></font><br></li>
+<li><tt><span id="hue879"><font><font>Postscript</font></font></span></tt><font><font> em dpi k str
+</font></font><br><font><font>
+This is used when creating a postscript image: em define the size of the image in cm, dpi is the desired resolution (by default</font></font><span class="MATH"><img width="28" height="13" align="BOTTOM" border="0" src="./Medit&#39;s Documentation_files/img80.png" alt="$ 300"></span><font><font>in</font></font><i><font><font> dot per inch</font></font></i><font><font> ), k is a coefficient used 'It is not null) for ??? </font><font>And in the current version str is not used.
+</font></font></li>
+<li><tt><span id="hue881"><font><font>Time</font></font></span></tt><font><font> t dt nb
+</font></font><br><font><font>
+This is used to activate particle visualization.
+</font></font><br><font><font>
+T denotes the final temp, dt the time step and nb the number of consecutive particles.
+</font></font></li>
+</ul>
+
+<p>
+<br>
+<br>
+<br><font><font>
+In this file, comment lines begin with the character </font></font><span class="MATH"><img width="17" height="30" align="MIDDLE" border="0" src="./Medit&#39;s Documentation_files/img1.png" alt="$ \ Char93 $"></span><font><font>, and can only exist between the definition of two fields (see example below).
+
+</font></font><br><a name="tex2html30" href="http://www.ljll.math.upmc.fr/~dobrzyns/private/Docmedit/Docmedit.html"><font><font>Back to overview</font></font></a>
+</p><p>
+
+</p><h1><a name="SECTION000120000000000000000"></a><a name="terrain"></a>
+<br>
+<span class="arabic"><font><font>11</font></font></span><font><font> The field mode
+</font></font></h1><font><font>
+The terrain mode allows you to move on terrain. </font><font>To activate it, simply type </font></font><tt><span id="hue887"><font><font>J</font></font></span></tt>
+<br><a name="tex2html31" href="http://www.ljll.math.upmc.fr/~dobrzyns/private/Docmedit/Docmedit.html"><font><font> back to the table of contents</font></font></a>
+<p>
+
+</p><h1><a name="SECTION000130000000000000000">
+<span class="arabic"><font><font>12</font></font></span><font><font> Keyboard shortcuts</font></font></a>
+</h1>
+
+<ul>
+<li><tt><span id="hue893"><font><font>A</font></font></span></tt><font><font> : Activate (or deactivate) the animation mode the object, so any movement of the mouse will be considered as a direction of rotation.
+</font></font></li>
+<li><tt><span id="hue895"><font><font>B</font></font></span></tt><font><font> : changes the color of the background (changes from black to white)
+</font></font></li>
+<li><tt><span id="hue897"><font><font>C</font></font></span></tt><font><font> : displays colors
+</font></font></li>
+<li><tt><span id="hue899"><font><font>D</font></font></span></tt><font><font> : if a face is selected, you can delete it
+</font></font></li>
+<li><tt><span id="hue901"><font><font>E</font></font></span></tt><font><font> : displays the textures associated with the references
+</font></font></li>
+<li><tt><span id="hue903"><font><font>F</font></font></span></tt><font><font> : Enables and disables hidden faces
+</font></font></li>
+<li><tt><span id="hue905"><font><font>G</font></font></span></tt><font><font> : displays the edges (rigdes and corners)
+</font></font></li>
+<li><tt><span id="hue907"><font><font>H</font></font></span></tt><font><font> : prints the help in the terminal window
+</font></font></li>
+<li><tt><span id="hue909"><font><font>I</font></font></span></tt><font><font> : resets the view
+</font></font></li>
+<li><tt><span id="hue911"><font><font>J</font></font></span></tt><font><font> : activates the field mode (see</font></font><a href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#terrain"><font><font> 11</font></font></a><font><font> )
+</font></font></li>
+<li><tt><span id="hue913"><font><font>K</font></font></span></tt><font><font> : when viewing a 2d solution, it can be raised (see</font></font><a href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#visu_sol"><font><font> 4.2</font></font></a><font><font> )
+</font></font></li>
+<li><tt><span id="hue915"><font><font>L</font></font></span></tt><font><font> : Displays and displaces lines
+</font></font></li>
+<li><tt><span id="hue917"><font><font>M</font></font></span></tt><font><font> : Displays and disables the solution associated with the mesh
+</font></font></li>
+<li><tt><span id="hue919"><font><font>N</font></font></span></tt><font><font> : 
+</font></font></li>
+<li><tt><span id="hue921"><font><font>O</font></font></span></tt><font><font> : displays the iso-lines of the solution
+</font></font></li>
+<li><tt><span id="hue923"><font><font>P</font></font></span></tt><font><font> : Displays and disables the palette
+</font></font></li>
+<li><tt><span id="hue925"><font><font>Q</font></font></span></tt><font><font> : Quits the application
+</font></font></li>
+<li><tt><span id="hue927"><font><font>R</font></font></span></tt><font><font> : if a face is selected, hides all faces of the same reference
+</font></font></li>
+<li><tt><span id="hue929"><font><font>S</font></font></span></tt><font><font> : hides the selected item
+</font></font></li>
+<li><tt><span id="hue931"><font><font>T</font></font></span></tt><font><font> : 
+</font></font></li>
+<li><tt><span id="hue933"><font><font>U</font></font></span></tt><font><font> :
+</font></font></li>
+<li><tt><span id="hue935"><font><font>V</font></font></span></tt><font><font> : If a point or a triangle is selected, draw one or more current lines (see</font></font><a href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#visu_sol"><font><font> 4.2</font></font></a><font><font> )
+</font></font></li>
+<li><tt><span id="hue937"><font><font>W</font></font></span></tt><font><font> : plots the vectors at the mesh points when viewing a vector field
+</font></font></li>
+<li><tt><span id="hue939"><font><font>X</font></font></span></tt><font><font> : 
+</font></font></li>
+<li><tt><span id="hue941"><font><font>Y</font></font></span></tt><font><font> : 
+</font></font></li>
+<li><tt><span id="hue943"><font><font>Z</font></font></span></tt><font><font> : allows to zoom
+
+</font></font><p>
+</p></li>
+<li><tt><span id="hue945"><font><font>A</font></font></span></tt><font><font> : Displays (or dismisses) the axes
+</font></font><br><font><font>
+when the properties of the material are displayed, allows them to be applied
+</font></font></li>
+<li><tt><span id="hue947"><font><font>B</font></font></span></tt><font><font> : Displays (or disguises) the bounding box
+</font></font></li>
+<li><tt><span id="hue949"><font><font>C</font></font></span></tt><font><font> : 
+</font></font></li>
+<li><tt><span id="hue951"><font><font>D</font></font></span></tt><font><font> : 
+</font></font></li>
+<li><tt><span id="hue953"><font><font>E</font></font></span></tt><font><font> : Edit the properties of the material
+</font></font></li>
+<li><tt><span id="hue955"><font><font>F</font></font></span></tt><font><font> : displays face numbers
+</font></font></li>
+<li><tt><span id="hue957"><font><font>G</font></font></span></tt><font><font> : Displays the grid
+</font></font></li>
+<li><tt><span id="hue959"><font><font>H</font></font></span></tt><font><font> : makes a "hardcopy" (see</font></font><a href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#sauv"><font><font> 7</font></font></a><font><font> )
+</font></font></li>
+<li><tt><span id="hue961"><font><font>I</font></font></span></tt><font><font> : 
+</font></font></li>
+<li><tt><span id="hue963"><font><font>J</font></font></span></tt><font><font> : activates the field mode (see</font></font><a href="https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#terrain"><font><font> 11</font></font></a><font><font> )
+</font></font></li>
+<li><tt><span id="hue965"><font><font>K</font></font></span></tt><font><font> : allows to enter a coefficient of elevation
+</font></font></li>
+<li><tt><span id="hue967"><font><font>L</font></font></span></tt><font><font> : reads preferences
+</font></font></li>
+<li><tt><span id="hue969"><font><font>M</font></font></span></tt><font><font> : 
+</font></font></li>
+<li><tt><span id="hue971"><font><font>N</font></font></span></tt><font><font> : displays the normals if they exist in the</font><tt><span id="hue973"><font> mesh</font></span></tt><font> file</font></font><tt><span id="hue973"><font></font></span></tt> 
+</li>
+<li><tt><span id="hue975"><font><font>O</font></font></span></tt><font><font> : inverses the orientation of the normal
+</font></font></li>
+<li><tt><span id="hue977"><font><font>P</font></font></span></tt><font><font> : Displays and displays the number of points
+</font></font></li>
+<li><tt><span id="hue979"><font><font>Q</font></font></span></tt><font><font> : 
+</font></font></li>
+<li><tt><span id="hue981"><font><font>R</font></font></span></tt><font><font> : unmask the hidden faces
+</font></font></li>
+<li><tt><span id="hue983"><font><font>S</font></font></span></tt><font><font> : 
+</font></font></li>
+<li><tt><span id="hue985"><font><font>T</font></font></span></tt><font><font> : 
+</font></font></li>
+<li><tt><span id="hue987"><font><font>U</font></font></span></tt><font><font> :
+</font></font></li>
+<li><tt><span id="hue989"><font><font>V</font></font></span></tt><font><font> : changes the center of the scene
+</font></font></li>
+<li><tt><span id="hue991"><font><font>W</font></font></span></tt><font><font> : saves preferences
+</font></font></li>
+<li><tt><span id="hue993"><font><font>X</font></font></span></tt><font><font> : closes the window (and leaves</font></font><tt><font><font> Medit</font></font></tt><font><font> if there is only one window)
+</font></font></li>
+<li><tt><span id="hue996"><font><font>Y</font></font></span></tt><font><font> : 
+</font></font></li>
+<li><tt><span id="hue998"><font><font>Z</font></font></span></tt><font><font> : allows you to zoom out
+
+</font></font><p>
+</p></li>
+</ul>
+
+<p>
+<a name="tex2html32" href="http://www.ljll.math.upmc.fr/~dobrzyns/private/Docmedit/Docmedit.html"><font><font>Back to overview</font></font></a>
+</p><p>
+
+</p><h1><a name="SECTION000140000000000000000">
+<span class="arabic"><font><font>13</font></font></span><font><font> FAQ</font></font></a>
+</h1>
+
+<p>
+<a name="tex2html33" href="http://www.ljll.math.upmc.fr/~dobrzyns/private/Docmedit/Docmedit.html"><font><font>Back to overview</font></font></a>
+</p><p>
+<br></p><hr>
+<address><font><font>
+Cécile Dobrzynski 2004-06-09
+</font></font></address><div id="goog-gt-tt" class="goog-tooltip skiptranslate" dir="ltr" style="visibility: hidden; left: 667px; top: 10062px; display: none;"><div style="padding: 8px;"><div><div class="logo"><img src="./Medit&#39;s Documentation_files/translate_24dp.png" width="20" height="20" alt="Google Translate"></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">Original text</h1></div><div class="middle" style="padding: 8px;"><div class="original-text">Au lieu de lier les deux vues, vous pouvez simplement copier une vue ( copy ou alt + c ) et la coller dans une autre fenêtre ( paste ou alt + p ).</div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">Contribute a better translation</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;"><div class="activity-root"></div></div></div><div class="status-message" style="display: none; opacity: 0;"></div></div>
+
+
+<div class="goog-te-spinner-pos"><div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg></div></div></body><div></div></html>

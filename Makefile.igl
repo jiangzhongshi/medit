@@ -1,11 +1,13 @@
 LIBMESH = ./libmesh/
 
-LIBIGL=/usr/local/igl/libigl
+LIBIGL=/usr/local/Library/libigl
 LIBIGL_INC=-I$(LIBIGL)/include
-LIBIGL_LIB=-L$(LIBIGL)/lib -ligl -liglpng -liglanttweakbar
+LIBIGL_LIB=-L$(LIBIGL)/tutorial/build/libigl/ -ligl -ligl_png
 
-EIGEN=/opt/local/include/eigen3
+EIGEN=$(LIBIGL)/external/nanogui/ext/eigen
 EIGEN_INC=-I$(EIGEN)
+
+YIMG = $(LIBIGL)/tutorial/build/libigl/stb_image
 
 ANTTWEAKBAR=$(LIBIGL)/external/AntTweakBar/
 ANTTWEAKBAR_INC=-I$(ANTTWEAKBAR)/include
@@ -15,12 +17,11 @@ ANTTWEAKBAR_LIB=-L$(ANTTWEAKBAR)/lib -lAntTweakBar -framework  AppKit
 #GL2PS_INC=-I$(GL2PS)/include
 #GL2PS_LIB=-L$(GL2PS)/lib -lgl2ps
 
-INC = -I${LIBMESH} $(LIBIGL_INC) $(ANTTWEAKBAR_INC) $(GL2PS_INC) ${EIGEN_INC} -I$(LIBIGL)/external/yimg/ -DIGL_STATIC_LIBRARY
+INC = -I${LIBMESH} $(LIBIGL_INC) $(ANTTWEAKBAR_INC) $(GL2PS_INC) ${EIGEN_INC} -I$(YIMG)
 LIBS  = -framework OpenGL -framework GLUT -L${LIBMESH} -lmesh $(LIBIGL_LIB) $(ANTTWEAKBAR_LIB) $(GL2PS_LIB)\
-  -liglpng -L$(LIBIGL)/external/yimg/ -lyimg\
+  -ligl_png  -L$(YIMG) -lstb_image\
   -L/usr/X11/lib -lpng \
   -L$(LIBIGL)/external/AntTweakBar -lAntTweakBar \
-  -I/opt/local/include -L/opt/local/lib -lboost_thread-mt -lboost_system-mt \
 #CFLAGS = -Wall -g -DIGL
 CFLAGS=-Wall -O3 -DIGL -std=c++11 -DNDEBUG -msse4.2
 
